@@ -7,10 +7,10 @@
 			$filter = $_GET['filter'];
 			$sub_filter = $_GET['sub_filter'];
 
-			$servername = "localhost";
-			$username = "root";
-			$password = "";
-		  $dbname = "DB_Attivita";
+			$servername = "remotemysql.com";
+			$username = "2rq5oCHIw1";
+			$password = "ezalgsdkwh";
+		  $dbname = "2rq5oCHIw1";
 
 		  // Create connection
 		  $conn = new mysqli($servername, $username, $password, $dbname);
